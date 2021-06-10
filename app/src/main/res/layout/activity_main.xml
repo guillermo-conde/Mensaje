@@ -12,22 +12,24 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="69dp"
-        android:layout_margin="10dp"
-        android:gravity="center"
+
+        android:layout_above="@+id/button"
+
+        android:layout_marginBottom="7dp"
         android:text="HOLA MUNDO"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="34sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="247dp"
         android:text="Da clic aqui"
         android:textAlignment="gravity"
         android:textStyle="italic" />
