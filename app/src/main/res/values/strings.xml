@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Mensaje</string>
+    <string name="hola_mundo">HOLA MUNDO</string>
+    <string name="Da_clic_aqui">Da clic aqui</string>
 </resources>
